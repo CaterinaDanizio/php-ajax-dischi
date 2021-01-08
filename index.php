@@ -9,7 +9,12 @@
     ?>
 </head>
 <body>
-    <div class="container flex" id="app">
+    <div class="container" id="app">
+        <header>
+            <div class="logo flex">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Logoappliandrospotify.png" alt="">
+            </div>
+        </header>
         <div class="album flex">
             <ul class="flex">
          <?php
