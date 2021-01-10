@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    color: white;
+}
+
+header {
+   width: 100%;
+   background-color: #121212;
+}
+
+.logo {
+   width: 70%;
+   height: 60px;
+   margin: 0 auto; 
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.logo img {
+    width: 60px;
+    padding-left: 30px;
+}
+
+.album {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.album img {
+    height: 200px;
+    width: auto;
+    margin: 10px;
+    
+}
+
+.album li {
+    background-color: #121212;
+    padding: 20px;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
